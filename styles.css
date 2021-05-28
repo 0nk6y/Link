@@ -1,0 +1,73 @@
+html {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1d1f20;;
+}
+
+html::after {
+  background-color: #2779b8;
+}
+.icon {
+  width: 180px;
+  border-radius: 10%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+ul {
+  font-family: Helvetica1;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 550px;
+}
+li {
+  height: 50px;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.LinkBox img {
+  width: 50px;
+  height: 50px;
+}
+/* リンクの下線を消す */
+a {
+  text-decoration: none;
+}
+/* ホバーアニメーション */
+.GitHub {
+  box-shadow: none;
+  transition: box-shadow ease-out 0.3s;
+}
+.GitHub:hover{
+  box-shadow: 0 0 20px #9FC4E1;
+}
+/*  */
+.Spotify {
+  box-shadow: none;
+  transition: box-shadow ease-out 0.3s;
+}
+.Spotify:hover {
+  box-shadow: 0 0 20px #F8DACD;
+}
+/*  */
+.Portfolio {
+  box-shadow: none;
+  transition: box-shadow ease-out 0.3s;
+}
+.Portfolio:hover {
+  box-shadow: 0 0 20px #F7BBBC;
+}
+/*  */
+.MyFavoriteSong {
+  box-shadow: none;
+  transition: box-shadow ease-out 0.3s;
+}
+.MyFavoriteSong:hover {
+  box-shadow: 0 0 20px #9a8d99;
+}
